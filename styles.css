@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  height: 60px;
+  background: #ffffff;
+}
+
+.main {
+  height: 717px;
+  background-image: url(img/clem-onojeghuo-107238.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.form {
+  height: 660px;
+  width: 400px;
+  background: #fcfaf4;
+  position: relative;
+  top: 15px;
+  left: 130px;
+  display: flex;
+  flex-direction: row;
+}
+
+.form__header {
+  display: flex;
+}
+
+.form__header__credit1 {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  background: #d6dadc;
+  width: 175px;
+  height: 40px;
+}
+
+.form__header__credit2 {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  background: #fcfaf4;
+  width: 225px;
+  height: 40px;
+    
+}
+

@@ -43,7 +43,7 @@ body {
 }
 
 .form__container {
-    padding: 20px 30px;
+  padding: 0px 30px;
 }
 
 .form__header__credit1 {
@@ -67,6 +67,7 @@ body {
 .sum {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .sum__text {
@@ -100,4 +101,42 @@ body {
   padding: 5px;
   width: 25px;
   height: 25px;
+}
+
+input[type="range"] {
+  width: 275px;
+}
+
+.total {
+  border-top: 1px solid lightgray;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.total__text {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.registation_button {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 340px;
+  height: 60px;
+  background: #f08700;
+  color: white;
+}
+
+.triangle {
+    width: 5px;
+    height: 5px;
+    border: 5px solid transparent;
+    border-left: 5px solid white;
+    position: relative;
+    left: 5px;
 }

@@ -17,6 +17,27 @@ body {
 .header {
   height: 60px;
   background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.header_logo{
+  margin: 0 130px;
+  width: 110px;
+}
+
+.nav {
+  display: flex;
+  border: 1px solid;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #ae9c89;
+  margin-right: 20px;
 }
 
 .main {
@@ -131,6 +152,7 @@ input[type="range"] {
   background: #f08700;
   color: white;
   text-align: center;
+  cursor: pointer;
 }
 
 .triangle {
@@ -143,12 +165,12 @@ input[type="range"] {
 }
 
 .registation_text {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .info {
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    text-decoration: underline;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: underline;
 }

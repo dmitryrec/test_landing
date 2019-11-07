@@ -218,6 +218,7 @@ body {
 .lang {
   width: 16px;
   height: 12px;
+  
 }
 
 .flagred {
@@ -230,4 +231,13 @@ body {
   background: #ffffff;
   height: 4px;
   width: 16px;
+}
+
+.flagtriangle {
+  width: 5px;
+  height: 5px;
+  border: 5px solid transparent;
+  border-top: 5px solid #000000;
+  margin-top: 7px; 
+  margin-left: 5px;
 }

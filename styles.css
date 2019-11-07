@@ -19,9 +19,9 @@ body {
   background: #ffffff;
   display: flex;
   flex-direction: row;
-  width: 100%;
-  /* justify-content: space-between; */
+  width: 1440px;
   align-items: center;
+  margin: 0 auto;
 }
 
 .header_logo{
@@ -31,7 +31,6 @@ body {
 
 .nav {
   display: flex;
-  border: 1px solid;
   align-items: center;
 }
 
@@ -42,11 +41,12 @@ body {
   height: 60px;
   display: flex;
   align-items: center;
-
 }
 
 .main {
-  height: 717px;
+  height: 716px;
+  width: 1440px;
+  margin: 0 auto;
   background-image: url(img/clem-onojeghuo-107238.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -175,7 +175,6 @@ body {
 }
 
 .info {
-  margin-top: 25px;
   display: flex;
   flex-direction: column;
   text-decoration: underline;
@@ -214,4 +213,21 @@ body {
   border-right: 1px solid lightgray;
   border-left: 1px solid lightgray;
   padding: 0 30px;
+}
+
+.lang {
+  width: 16px;
+  height: 12px;
+}
+
+.flagred {
+  background: #9d3039;
+  height: 4px;
+  width: 16px;
+}
+
+.flagwhite {
+  background: #ffffff;
+  height: 4px;
+  width: 16px;
 }
